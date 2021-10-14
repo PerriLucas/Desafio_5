@@ -16,3 +16,4 @@ select
     , is_discontinued
     
 from {{ ref('stg_products') }}
+order by product_id

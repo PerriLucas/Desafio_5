@@ -3,7 +3,6 @@ select
  -- Primary Key
     order_id
     -- Foreign Key
-    , employee_id
     , customer_id
 
     --Information	

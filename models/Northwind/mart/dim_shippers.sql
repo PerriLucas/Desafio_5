@@ -7,3 +7,4 @@ select
     , company_name
     
 from {{ ref('stg_shippers') }}
+order by shipper_id

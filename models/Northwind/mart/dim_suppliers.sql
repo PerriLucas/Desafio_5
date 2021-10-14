@@ -8,3 +8,4 @@ select
     , city
     , company_name
 from {{ ref('stg_suppliers') }}
+order by supplier_id
