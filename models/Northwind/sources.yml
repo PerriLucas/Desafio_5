@@ -1,0 +1,8 @@
+versions: 2
+
+sources: 
+    - name: northwind_etl
+    schema: northwind_etl
+    description: FONTE DOS DADOS
+    tables: 
+    - name: orders
