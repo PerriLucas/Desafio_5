@@ -12,6 +12,7 @@ with
             , region
             , city
             , postal_code
+            , company_name
             , contact_name
             , fax
             , phone
