@@ -1,8 +1,12 @@
-versions: 2
+version: 2
 
-sources: 
-    - name: northwind_etl
-    schema: northwind_etl
-    description: FONTE DOS DADOS
-    tables: 
-    - name: orders
+sources:
+  - name: northwind_etl
+    description: Northwind tables
+    tables:
+      - name: orders
+      - name: order_details
+      - name: products
+      - name: shippers
+      - name: suppliers
+      - name: customers
