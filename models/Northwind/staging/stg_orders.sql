@@ -16,7 +16,7 @@ with
             , ship_postal_code	
             , ship_city	
             , freight
-            , ship_via	
+            , ship_via as shipper_id	
             , required_date
             , ship_address
 

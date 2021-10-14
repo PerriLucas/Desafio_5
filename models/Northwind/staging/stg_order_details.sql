@@ -3,7 +3,7 @@ with
         select		
 	
             -- Primary Key
-            distinct order_id
+            order_id
             -- Foreign Key
             , product_id
 
