@@ -43,6 +43,7 @@ with
         select		
             order_details.order_id
             , products.product_id
+            , products.supplier_id
             , order_details.discount	
             , order_details.unit_price	
             , order_details.quantity
@@ -65,6 +66,7 @@ with
         , order_details_product.discount	
         , order_details_product.unit_price	
         , order_details_product.quantity
+        ,order_details_product.supplier_id
     from orders_with_sk_ship
     left join order_details_product on orders_with_sk_ship.order_id = order_details_product.order_id
 )
