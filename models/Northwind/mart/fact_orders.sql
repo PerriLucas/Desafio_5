@@ -61,6 +61,7 @@ with
         , orders_with_sk_ship.ship_city	
         , orders_with_sk_ship.freight
         , orders_with_sk_ship.shipper_id 
+        , order_details_product.product_id
         , order_details_product.discount	
         , order_details_product.unit_price	
         , order_details_product.quantity
